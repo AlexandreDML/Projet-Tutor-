@@ -1,0 +1,465 @@
+header h1 {
+	color: white;
+}
+
+header {
+	background-color: #116197;
+	text-align: center;
+
+}
+
+header nav {
+	color: white;
+}
+
+header nav .navbar-toggle .icon-bar {
+	background: white;
+	text-align: center;
+}
+
+header nav .navbar-toggle {
+	float: none;
+	margin-right: 0;
+}
+
+header nav ul li a {
+	color: white;
+	text-transform: uppercase;
+	border-radius: 5px;
+	font-family: 'Poppins', sans-serif;
+}
+
+header .nav>li>a:focus,
+header .nav>li>a:hover {
+	background: transparent;
+}
+
+header nav ul li a:hover {
+	color: #ddd;
+}
+
+header img {
+	width: 30%;
+}
+
+.drapeau
+{
+	border:none;
+	height:25px;
+	width:50px;
+	margin-top:-3px;
+	margin-right:5px;
+}
+
+header nav ul li a,
+a:hover {}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	right: 0;
+	background-color: white;
+	font-family: 'Poppins', sans-serif;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: white;
+}
+
+.icon{
+	width: 50px;
+	margin-top: 30px;
+}
+
+.icon2{
+	width: 150px;
+	margin-top: 30px;
+}
+
+.image{
+	 display: flex;
+	 width: 1500px;
+   margin: auto;
+   flex-wrap: wrap;
+	 justify-content: space-around;
+   margin-top: 30px;
+   flex-direction: row;
+}
+
+.block_image{
+	color: white;
+}
+
+#linear-gradient {
+background: linear-gradient(0deg, #c7e3ff, white);
+}
+
+#imgaccueil {
+	padding: 10px 10px;
+}
+
+#title h1 {
+  display: table;
+  white-space: nowrap;
+  text-align: center;
+  font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+	color:#116197;
+}
+
+#title h2{
+	font-family: 'Poppins', sans-serif;
+	color: #116197;
+}
+
+#title h1:before, h1:after {
+  content: "";
+  display: table-cell;
+  width: 50%;
+}
+
+
+#mid {
+	background-color:  #116197;
+	text-align: center;
+}
+
+#mid h2 {
+	color: white;
+}
+
+#mid p {
+	color: white;
+
+}
+
+#corps {
+	text-align: center;
+}
+
+#corps h2 {
+	color: #000000;
+}
+
+#corps h3 {
+	color: #000000;
+	font-size: 14px;
+	border-bottom: 1px solid #b0b2af;
+	padding: 10px 0px;
+	width: 200px;
+	margin: 20px auto;
+}
+
+#corps p {
+	color: #676566;
+	margin-top: 20px;
+}
+
+#corps a {
+	color: #999;
+	font-style: italic;
+}
+
+#corps a:hover {
+	color: #ccc;
+}
+
+#corps #a img {
+	width: 96%;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	margin-left: 0;
+}
+
+#corps #b img {
+	width: 96%;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	margin-left: 200px;
+}
+
+#corps #d img{
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#corps #t img{
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+footer {
+	background-color: #116197;
+	padding: 20px 0px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+footer img {
+	width: 60%;
+	margin: 10px 0px;
+}
+
+footer p {
+	text-align: center;
+	color: white;
+	margin: 10px 0px;
+}
+
+footer a {
+	color: white;
+}
+
+footer a:hover {
+	color: #000000;
+}
+
+#discord img{
+    width: 150px;
+    height: 150px;
+}
+.icon-bar img{
+    width: 30px;
+}
+
+#copyright {
+	margin-top: 300px;
+	padding: 10px;
+	border-top: 1px solid white;
+	color: white;
+}
+
+@media (min-width: 768px) {
+	header {
+		padding: 10px 20px;
+	}
+	img {
+		width: 100%;
+	}
+  header nav {
+		margin-top: 20px;
+	}
+	.navbar-nav li a {
+		padding: 0px 10px;
+	}
+	.navbar-collapse {
+		padding: 0px;
+	}
+}
+
+
+@media (min-width: 320px){
+
+	#title h1 {
+	  display: table;
+	  white-space: nowrap;
+	  text-align: center;
+		font-size: 25px;
+	  font-weight: bold;
+		font-family: 'Poppins', sans-serif;
+		color:#116197;
+	}
+
+	#title h2{
+		font-family: 'Poppins', sans-serif;
+		color: #116197;
+	}
+	#corps #d img{
+		margin-left: 0px;
+		margin-top: 5px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	}
+
+	#corps #t img{
+		margin-left: 0px;
+		margin-top: 5px;
+	}
+
+	#corps #jour img {
+	  width: 108%;
+		margin-left: 15px;
+	}
+
+	#corps #heures img {
+		width: 126%;
+		margin-left: 15px;
+	}
+
+	#corps img {
+	  width: 160%;
+		margin-left: -5px;
+		margin-top: 2px;
+	}
+	#corps #a img {
+		width: 96%;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		margin-left: 0;
+		margin-top: 5px;
+
+	}
+
+	#corps #b img {
+		width: 96%;
+		margin-left: 200px;
+		margin-top: 5px;
+
+	}
+}
+
+
+@media (min-width: 386px) {
+	#corps #jour img {
+	  width: 108%;
+		margin-left: 15px;
+	}
+
+	#corps #heures img {
+		width: 118%;
+		margin-left: 15px;
+	}
+
+	#corps img {
+	  width: 150%;
+		margin-left: -5px;
+	}
+}
+
+
+@media (min-width: 500px) {
+	#corps #jour img {
+	  width: 108%;
+		margin-left: 15px;
+	}
+
+	#corps #heures img {
+		width: 109%;
+		margin-left: 15px;
+	}
+
+	#corps img {
+	  width: 125%;
+		margin-left: 0px;
+		margin-top: 10px;
+	}
+}
+
+@media (min-width: 767px) {
+
+	#corps #d img{
+		margin-left: 0px;
+	}
+
+	#corps #t img{
+		margin-left: 0px;
+	}
+
+	#corps #jour img {
+		margin-top: 10px;
+		width: 107%;
+
+	}
+
+	#corps #heures img {
+		width: 92%;
+
+	}
+
+	#corps img {
+		margin-top: 16px;
+	  width: 105%;
+
+	}
+}
+
+@media (min-width: 857px) {
+
+	#corps #d img{
+		margin-left: 0px;
+	}
+
+	#corps #t img{
+		margin-left: 0px;
+	}
+
+	#corps #jour img {
+		margin-top: 10px;
+		width: 108%;
+	}
+
+	#corps #heures img {
+		width: 96%;
+	}
+
+	#corps img {
+		margin-top: 16px;
+	  width: 110%;
+	}
+}
+
+@media (min-width: 992px) {
+	#corps img {
+	  margin-top: 16px;
+	  width: 100%;
+	}
+
+	#corps #jour img {
+	  width: 106%;
+		margin-left: 19px;
+	}
+
+	#corps #heures img {
+		width: 85%;
+	}
+
+	#corps #d img{
+		margin-left: 150px;
+	}
+
+	#corps #t img{
+		margin-left: 150px;
+	}
+}
+
+@media (min-width: 1200px) {
+	#corps img {
+	  margin-top: 16px;
+	  width: 100%;
+	  margin-left: -80px;
+	}
+
+	#corps #jour img {
+	  margin-left: 0px;
+	  width: 105%;
+	}
+
+	#corps #heures img {
+		margin-left: -25px;
+		width: 83%;
+	}
+
+	#corps #d img{
+		margin-left: 200px;
+	}
+
+	#corps #t img{
+		margin-left: 200px;
+	}
+}
